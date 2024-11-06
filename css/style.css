@@ -112,25 +112,18 @@ section{
 }
 
 .bkg-grey{
-    background-color: grey;
+    background-color: rgb(199, 197, 197);
 }
 
 .bigcolumn{
-    background-color: #1e90ff;
     width: 60%;
     min-height: 400px;
-    border: 1px dashed white;
     
-
 }
 
 .littlecolumn{
-    background-color: #ffc0cb;
     width: 40%;
     min-height: 400px;
-    border: 1px dashed white;
-
-
 }
 
 section > .container{
@@ -145,6 +138,16 @@ section > .container{
     min-height: 400px;
     border: 1px dashed white;
 
+}
+
+.littlecolumn > p{
+    color: black;
+    text-align: left;
+}
+
+h2{
+    font-size: 35px;
+    text-align: left;
 }
 
 /*footer*/
