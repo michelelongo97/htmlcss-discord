@@ -1,0 +1,163 @@
+/*reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*general*/
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*header*/
+.header-top{
+    background-color: gainsboro;
+    padding: 15px 0;
+}
+
+.header-bottom{
+    background-color: blue;
+    padding: 30px 0;
+}
+
+.header-top > .container{
+    display: flex;
+    background-color: orange;
+}
+
+.header-top .logo{
+    width: 20%;
+    text-align: left;
+}
+
+.header-top .login{
+    width: 20%;
+    text-align: right;
+}
+
+.header-top nav{
+    width: 60%;
+    text-align: center;
+}
+
+.header-top .logo,
+.header-top nav,
+.header-top .login{
+    border: 1px dashed black;
+    padding: 6px;
+} 
+
+.header-bottom > .container{
+    display: flex;
+    background-color: palevioletred;
+    max-width: 900px;
+    min-height: 400px;
+    border: 1px dashed blue;
+
+}
+
+/*main*/
+section{
+    padding: 50px;
+}
+
+.bkg-grey{
+    background-color: grey;
+}
+
+.bigcolumn{
+    background-color: #1e90ff;
+    width: 60%;
+    min-height: 400px;
+    border: 1px dashed white;
+    
+
+}
+
+.littlecolumn{
+    background-color: #ffc0cb;
+    width: 40%;
+    min-height: 400px;
+    border: 1px dashed white;
+
+
+}
+
+section > .container{
+    display: flex;
+    
+}
+
+.column{
+    display: flex;
+    background-color: green;
+    width: 100%;
+    min-height: 400px;
+    border: 1px dashed white;
+
+}
+
+/*footer*/
+footer{
+    background-color: #3a3737;
+
+}
+footer > .container{
+    display: flex;
+    padding: 15px 0;
+}
+.col1{
+    width: 30%;
+    background-color: #f08080;
+    min-height: 400px;
+    border: 1px dashed black;
+
+}
+
+.col2{
+    display: flex;
+    width: 70%;
+    background-color: #20b2aa;
+    min-height: 400px;
+    border: 1px dashed white;
+
+
+}
+
+.col-inner{
+    
+    width: 25%;
+    border: 1px dashed white;
+    
+
+}
+
+.footer-bottom{
+    background-color: #7fffd4;
+    width: 90%;
+    border: 1px dashed white;
+    min-height: 50px;
+    margin: auto;
+}
+
+.footer-bottom > .container{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+#logo{
+    background-color: white;
+    padding: 6px 14px;
+}
+
+.btn{
+    background-color: white;
+    padding: 6px 14px;
+}
+
