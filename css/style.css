@@ -31,6 +31,12 @@
     background-color: white;
 }
 
+.purple-btn{
+    background-color: #648ae8;
+    color: white;
+    margin: 20px;
+}
+
 
 
 /*typography*/
@@ -160,6 +166,16 @@ h3{
     color: black;
 }
 
+h4{
+    background-image: url(../img/stars.svg);
+    width: 100%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+
+}
+
 /*footer*/
 img{
     max-width: 100%;
@@ -167,7 +183,7 @@ img{
 }
 
 footer{
-    background-color: #3a3737;
+    background-color: #292841;
 
 }
 footer > .container{
@@ -176,18 +192,16 @@ footer > .container{
 }
 .col1{
     width: 30%;
-    background-color: #f08080;
     min-height: 400px;
-    border: 1px dashed black;
+   
 
 }
 
 .col2{
     display: flex;
     width: 70%;
-    background-color: #20b2aa;
     min-height: 400px;
-    border: 1px dashed white;
+    
 
 
 }
@@ -195,15 +209,13 @@ footer > .container{
 .col-inner{
     
     width: 25%;
-    border: 1px dashed white;
+    
     
 
 }
 
 .footer-bottom{
-    background-color: #7fffd4;
     width: 90%;
-    border: 1px dashed white;
     min-height: 50px;
     margin: auto;
 }
@@ -215,9 +227,26 @@ footer > .container{
 }
 
 #logo{
-    background-color: white;
+    
     padding: 6px 14px;
 }
 
+h5{
+    color: #648ae8;
+    font-size: 23px;
+}
 
+h6{
+    color: #648ae8;
+    font-size: 18px;
+}
 
+ul{
+    list-style-type: none;
+    color: white;
+    
+}
+
+.pfoot{
+    text-align: left;
+}
