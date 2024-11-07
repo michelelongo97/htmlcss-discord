@@ -17,7 +17,7 @@
 /*buttons*/
 .btn{
     
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 6px 14px;
     border: none;
 }
@@ -110,6 +110,13 @@ p{
     font-size: 20px;
     color: white;
     text-align: center;
+}
+
+.btn.white-btn{
+    margin: 30px;
+}
+.btn.black-btn{
+    margin: 30px;
 }
 
 /*main*/
